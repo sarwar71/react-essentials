@@ -1,0 +1,49 @@
+html,
+body {
+  padding: 0;
+  margin: 8px;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.parent-comp {
+  background-color: lightcyan;
+  padding: 8px;
+}
+
+.child-comp {
+  background-color: beige;
+  padding: 8px;
+  margin: 8px;
+}
+
+button {
+  margin: 4px;
+}
+
+.counters-container {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.counters-container .red {
+  background-color: lightpink;
+  margin: 4px;
+  padding: 4px;
+}
+
+.counters-container .blue {
+  background-color: lightblue;
+  margin: 4px;
+  padding: 4px;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
